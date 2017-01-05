@@ -71,7 +71,7 @@ From [Chris Beams](http://chris.beams.io/posts/git-commit/) ...
 7. Use the body to explain what and why vs. how
 
 All of these are pretty obvious, except for #5, which means that you should
-write these in present tense, starting with a verb, and with no pronoun, so
+write these in present tense, starting with a verb, and with no pronoun. So
 something like "Add tests for time zone boundaries". Do not write "Added tests
 ..." (past tense) or "I added tests ..." (pronoun), etc.
 
