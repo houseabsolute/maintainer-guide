@@ -58,6 +58,8 @@ code and run the critic checks before submitting a branch. You can tidy all
 the code in a repo with `tidyall -a` and tidy just the those things which have
 been changed with `tidyall -g`.
 
+To install `tidyall` run `cpanm Code::TidyAll`.
+
 ### Commit Messages
 
 From [Chris Beams](http://chris.beams.io/posts/git-commit/) ...
@@ -90,7 +92,7 @@ A PR cannot be merged until it passes in Travis (and AppVeyor, if relevant).
 ## Responding to Review Comments
 
 Please rebase your PR in response to comments. This lets us avoid having lots
-of comments like "fixing spelling in a comment" or "renaming $foo variable".
+of commits like "fixing spelling in a comment" or "renaming $foo variable".
 
 ## Merging PRs
 
